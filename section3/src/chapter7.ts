@@ -1,0 +1,22 @@
+//타입 좁히기
+//조건문 등을 이용해 넓은타입에서 좁은타입으로
+//상황에 따라 타입을 좁히는 방법
+
+type Person = {
+  name: string;
+  age: number;
+};
+
+//value => number : toFixed
+//value => stirng : toUpperCase
+//value => data : getTime
+function func(value: number | string | Date | null) {
+  value;
+  if (typeof value === "number") {
+    console.log(value.toFixed());
+  } else if (typeof value === "string") {
+    console.log(value.toUpperCase());
+  } else if (value instanceof Date) {
+    console.log(value.getTime());
+  }
+}
