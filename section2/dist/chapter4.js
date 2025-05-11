@@ -8,4 +8,13 @@ let user = {
     bio: "asdasda",
     location: "안양시",
 };
+//인덱스 시그니처
+let countryCodes = {
+    Korea: "ko",
+    UnitedState: "us",
+    UnitedKingdom: "uk",
+};
+let countryNumberandStringCodes = {
+    Korea: 110,
+};
 export {};

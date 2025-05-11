@@ -3,6 +3,14 @@ let user = {
     id: 1,
     name: "이정환",
 };
+const jy = {
+    name: "",
+    address: "",
+};
+let user2 = {
+    id: 1,
+    name: "이정환",
+};
 user = {
     name: "aa",
 };
